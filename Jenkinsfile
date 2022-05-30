@@ -5,7 +5,7 @@ pipeline {
 			jdk "JDK"
 		}
     stages {
-        stage('Build') {
+        stage('Initializing') {
             steps {
                 echo "Running ${env.BUILD_ID} on ${env.JENKINS_URL}"
                 echo 'Building..'
@@ -13,7 +13,7 @@ pipeline {
                 echo "M2_HOME = /home/ubuntu/apache-maven-3.8.5"
             }
         }
-        stage('Test') {
+        stage('Build') {
             steps {
                 echo 'Testing..'
 		 dir("/var/lib/jenkins/workspace/pipeline-test") {
