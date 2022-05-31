@@ -10,7 +10,7 @@ pipeline {
                 echo "Running ${env.BUILD_ID} on ${env.JENKINS_URL}"
                 echo 'Building..'
                 echo "PATH = ${M2_HOME}/bin:${PATH}"
-                echo "M2_HOME = /home/ubuntu/apache-maven-3.8.5"
+                echo "M2_HOME = /usr/share/apache-maven"
             }
         }
         stage('Build') {
