@@ -24,7 +24,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
-		deploy adapters: [tomcat10(credentialsId: 'tomcat', url: 'http://13.127.100.11:8082')], contextPath: '/demo', onFailure: false, war: 'jenkins-build-test/target/*.war' 
+		deploy adapters: [tomcat9(credentialsId: 'tomcat', url: 'http://13.127.100.11:8082')], contextPath: '/demo', onFailure: false, war: 'jenkins-build-test/target/*.war' 
             }
         }
     }
