@@ -16,7 +16,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Testing..'
-		 dir("/var/lib/jenkins/workspace/pipeline-test") {
+		 dir("/var/lib/jenkins/workspace/jenkins-build-test") {
 		   sh 'mvn -B -DskipTests clean package'
 		}
             }
