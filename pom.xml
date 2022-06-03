@@ -102,6 +102,10 @@
 		</plugins>
 	</build>
 	<distributionManagement>
+			<repository>
+		        <id>releases</id>
+		        <url>https://files.000webhost.com/</url>
+		    </repository>
 		   <snapshotRepository>
 		      <id>nexus-snapshots</id>
 		      <url>https://files.000webhost.com/</url>
