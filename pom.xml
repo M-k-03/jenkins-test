@@ -18,7 +18,7 @@
 	</properties>
 	<scm>
         <connection>scm:git:https://github.com/M-k-03/jenkins-test.git</connection>
-        <url>https://github.com/M-k-03/jenkins-test</url>
+        <url>https://github.com/M-k-03/jenkins-test.git</url>
       <tag>demo-0.0.1</tag>
       <developerConnection>https://github.com/M-k-03/jenkins-test.git</developerConnection>
 	</scm>
