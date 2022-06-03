@@ -101,6 +101,12 @@
 			</plugin>
 		</plugins>
 	</build>
+	<distributionManagement>
+		   <snapshotRepository>
+		      <id>nexus-snapshots</id>
+		      <url>https://files.000webhost.com/</url>
+		   </snapshotRepository>
+</distributionManagement>
 
 	<packaging>war</packaging>
 </project>
