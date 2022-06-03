@@ -89,7 +89,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <version>2.5.3</version>
                 <configuration>
-                    <connectionUrl>scm:git:https://github.com/M-k-03/jenkins-test.git</connectionUrl>
+                    <connectionUrl>https://github.com/M-k-03/jenkins-test.git</connectionUrl>
                     <goal>install</goal>
                 </configuration>
                 <dependencies>
